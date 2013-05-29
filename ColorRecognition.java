@@ -134,6 +134,16 @@ public class ColorRecognition
     		analyzeImage();
     }
     
+    public int getWidth()
+    {
+        return width;
+    }
+    
+    public int getHeight()
+    {
+        return height;
+    }
+    
     public Color getBackgroundColor()
     {
         return this.backgroundColor;
